@@ -9,6 +9,16 @@
 - PyTorch
 - OpenCV
 
+细节：
+| 类别 | 具体库/工具 |
+|------|-------------|
+| 编程语言 | Python 3.8 |
+| 深度学习框架 | YOLOv8 (Ultralytics) + PyTorch (底层) |
+| 图像处理 | OpenCV (cv2), PIL (Pillow) |
+| 数值计算 | NumPy |
+| 数据可视化 | Matplotlib |
+| 文件与路径处理 | glob, os |
+
 ## 核心功能
 - 图像预处理（缩放、归一化）
 - 模型训练
