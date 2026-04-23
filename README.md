@@ -55,10 +55,10 @@ STEP3
 ## 如何运行
 ### 训练
 1. 准备数据集（YOLO格式的标注文件）
-2. 修改 `config.yaml` 中的数据集路径和类别
+2. 修改 `data.yaml` 中的数据集路径和类别
 3. 运行训练脚本：
    ```bash
-   python train.py --data config.yaml --epochs 200 --batch-size 16
+   python predict.py --data data.yaml --epochs 200 --batch-size 16
 
 
 ## 环境要求（基于原始开发环境）
