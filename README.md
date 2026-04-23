@@ -52,7 +52,22 @@ STEP3
 <img width="640" height="480" alt="1-3" src="https://github.com/user-attachments/assets/d2a69874-cc47-4016-9dee-bfb093af877a" />
 
 
+## 如何运行
+### 训练
+1. 准备数据集（YOLO格式的标注文件）
+2. 修改 `config.yaml` 中的数据集路径和类别
+3. 运行训练脚本：
+   ```bash
+   python train.py --data config.yaml --epochs 200 --batch-size 16
 
+
+## 环境要求（基于原始开发环境）
+- Python 3.8
+- PyTorch 1.10+
+- Ultralytics YOLOv8
+- 其他依赖见 requirements.txt
+
+*注：项目开发于2024年，新环境可能需要调整依赖版本。*
 
 
 
